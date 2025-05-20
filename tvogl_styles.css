@@ -53,7 +53,7 @@ body
 
 .navigationlink a
 {
-	color: #7f8772;
+	color: #0f0f0f;
 	text-decoration: none;	
 }
 
@@ -67,12 +67,12 @@ body
 
 .researchlink 
 {
+	color: #0f0f0f;
 	word-spacing:3em;	
 }
 
 .researchlink a
 {
-	color: #7f8772;
 	text-decoration: none;	
 }
 
