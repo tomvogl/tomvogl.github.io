@@ -109,14 +109,9 @@ body
 		padding-right: 15px;
 	}
 
-	.profile
-	{
-		flex-direction: column;
-	}
-
 	.profile-photo img
 	{
-		width: 140px;
+		width: 110px;
 	}
 
 	.navigationlink
