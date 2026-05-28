@@ -77,8 +77,50 @@ body
 	text-decoration: none;	
 }
 
-.researchlink a:hover 
+.researchlink a:hover
 {
 	color: #0000EE;
 	text-decoration: underline;
+}
+
+/* Home page profile layout */
+.profile
+{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 20px;
+	margin-top: 10px;
+}
+
+.profile-photo img
+{
+	width: 175px;
+	height: auto;
+	display: block;
+}
+
+/* Mobile styles */
+@media (max-width: 600px)
+{
+	body
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.profile
+	{
+		flex-direction: column;
+	}
+
+	.profile-photo img
+	{
+		width: 140px;
+	}
+
+	.navigationlink
+	{
+		word-spacing: 1.5em;
+	}
 }
